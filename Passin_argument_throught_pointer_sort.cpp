@@ -24,6 +24,12 @@ int size = 6;
 //Declare array
 int a[size] = {2,4,8,12,21,33};
 
+//Show array
+for(int i = 0; i<size; ++i)
+{
+    cout<<"a["<<i<<"] = "<<a[i];
+    cout<<endl;
+}
 
 getch();
 }
