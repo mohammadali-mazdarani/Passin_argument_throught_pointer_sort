@@ -24,6 +24,8 @@ int size = 6;
 //Declare array
 int a[size] = {2,4,8,12,21,33};
 
+cout<<"Show array before sort :"<<endl<<endl;
+
 //Show array
 for(int i = 0; i<size; ++i)
 {
@@ -31,8 +33,24 @@ for(int i = 0; i<size; ++i)
     cout<<endl;
 }
 
+cout<<endl<<endl<<"--------------------------"<<endl<<endl
+
+//Sort array with function
+sort(a,size);
+
+//Show array
+for(int i = 0; i<size; ++i)
+{
+    cout<<"a["<<i<<"] = "<<a[i];
+    cout<<endl;
+}
 getch();
 }
 //function variable
 //--------------------------
 //functions
+void sort(int b[],int size)
+{
+
+
+}
